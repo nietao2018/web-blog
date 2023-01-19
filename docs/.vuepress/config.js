@@ -1,7 +1,11 @@
 module.exports = {
+  base: '/web-blog/',
   title: '漫步coding的博客',
   description: '公众号: 漫步coding, 欢迎大家关注， 一个聚焦于算法、数据库、架构的公众号',
   themeConfig: {
+    themeConfig: {
+      subSidebar: 'auto'
+    },
     nav: [
       { text: '首页', link: '/' },
       { 
